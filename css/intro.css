@@ -1,0 +1,357 @@
+#main {
+    overflow: hidden
+}
+
+#main .bgmBox {
+    width: 100%;
+    background-image: url(../img/intro/bgm.jpg);
+    background-size: cover
+}
+
+#main .banners,
+#main .introBox {
+    background-image: url(../img/intro/background.jpg)
+}
+
+[data-dpr="1"] #main .bgmBox {
+    height: 112.5px
+}
+
+[data-dpr="2"] #main .bgmBox {
+    height: 225px
+}
+
+[data-dpr="3"] #main .bgmBox {
+    height: 337.5px
+}
+
+#main .introBox {
+    position: relative
+}
+
+#main .introBox .bancaileft,
+#main .introBox .bancairight,
+#main .introBox .juanleft,
+#main .introBox .juanright {
+    position: absolute;
+    opacity: .6
+}
+
+#main .introBox .juanleft {
+    left: 0;
+    top: 10%;
+    width: 25%
+}
+
+#main .introBox .juanright {
+    right: 0;
+    top: 2%;
+    width: 23%
+}
+
+#main .introBox .bancaileft {
+    left: 0;
+    top: 67%;
+    width: 23%
+}
+
+#main .introBox .bancairight {
+    right: 0;
+    top: 46%;
+    width: 27%
+}
+
+#main .introBox .textBox .mainTitle {
+    font-family: NotoSansHans-Medium;
+    text-align: center
+}
+
+[data-dpr="1"] #main .introBox .textBox .mainTitle {
+    font-size: 17.5px;
+    padding-top: 15px
+}
+
+[data-dpr="2"] #main .introBox .textBox .mainTitle {
+    font-size: 35px;
+    padding-top: 30px
+}
+
+[data-dpr="3"] #main .introBox .textBox .mainTitle {
+    font-size: 52.5px;
+    padding-top: 45px
+}
+
+#main .introBox .textBox .titleBox h1 {
+    font-family: NotoSansHans-Medium;
+    margin-left: 25%
+}
+
+[data-dpr="1"] #main .introBox .textBox .titleBox h1 {
+    font-size: 17.5px;
+    margin-bottom: -17.5px
+}
+
+[data-dpr="2"] #main .introBox .textBox .titleBox h1 {
+    font-size: 35px;
+    margin-bottom: -35px
+}
+
+[data-dpr="3"] #main .introBox .textBox .titleBox h1 {
+    font-size: 52.5px;
+    margin-bottom: -52.5px
+}
+
+#main .introBox .textBox .titleBox span {
+    font-family: NotoSansHans-Black
+}
+
+[data-dpr="1"] #main .introBox .textBox .titleBox span {
+    font-size: 52.5px
+}
+
+[data-dpr="2"] #main .introBox .textBox .titleBox span {
+    font-size: 105px
+}
+
+[data-dpr="3"] #main .introBox .textBox .titleBox span {
+    font-size: 157.5px
+}
+
+#main .introBox .textBox .titleBox p {
+    font-family: NotoSansHans-Regular;
+    margin-left: 30%
+}
+
+#main .contact .textBox h1,
+#main .contact .textBox p,
+#main .introBox .textBox .otherBox p {
+    font-family: NotoSansHans-Medium
+}
+
+[data-dpr="1"] #main .introBox .textBox .titleBox p {
+    font-size: 10px;
+    margin-right: 60px;
+    margin-top: 4px
+}
+
+[data-dpr="2"] #main .introBox .textBox .titleBox p {
+    font-size: 20px;
+    margin-right: 120px;
+    margin-top: 8px
+}
+
+[data-dpr="3"] #main .introBox .textBox .titleBox p {
+    font-size: 30px;
+    margin-right: 180px;
+    margin-top: 12px
+}
+
+[data-dpr="1"] #main .introBox .textBox .second {
+    margin-top: 75px
+}
+
+[data-dpr="2"] #main .introBox .textBox .second {
+    margin-top: 150px
+}
+
+[data-dpr="3"] #main .introBox .textBox .second {
+    margin-top: 225px
+}
+
+[data-dpr="1"] #main .introBox .textBox .otherBox {
+    margin-top: 68.5px
+}
+
+[data-dpr="2"] #main .introBox .textBox .otherBox {
+    margin-top: 137px
+}
+
+[data-dpr="3"] #main .introBox .textBox .otherBox {
+    margin-top: 205.5px
+}
+
+#main .introBox .textBox .otherBox h1 {
+    font-family: NotoSansHans-Medium;
+    width: 45%;
+    text-align: left;
+    margin-left: 25%
+}
+
+[data-dpr="1"] #main .introBox .textBox .otherBox h1 {
+    font-size: 17.5px;
+    border-bottom: 2px solid #000
+}
+
+[data-dpr="2"] #main .introBox .textBox .otherBox h1 {
+    font-size: 35px;
+    border-bottom: 4px solid #000
+}
+
+[data-dpr="3"] #main .introBox .textBox .otherBox h1 {
+    font-size: 52.5px;
+    border-bottom: 6px solid #000
+}
+
+#main .introBox .textBox .otherBox p {
+    text-align: left;
+    margin-left: 30%;
+    margin-top: 6%
+}
+
+[data-dpr="1"] #main .introBox .textBox .otherBox p {
+    font-size: 10px
+}
+
+[data-dpr="2"] #main .introBox .textBox .otherBox p {
+    font-size: 20px
+}
+
+[data-dpr="3"] #main .introBox .textBox .otherBox p {
+    font-size: 30px
+}
+
+[data-dpr="1"] #main .banners {
+    padding-top: 68.5px
+}
+
+[data-dpr="2"] #main .banners {
+    padding-top: 137px
+}
+
+[data-dpr="3"] #main .banners {
+    padding-top: 205.5px
+}
+
+[data-dpr="1"] #main .banners .swiper-container {
+    width: 250px;
+    height: 200px
+}
+
+[data-dpr="2"] #main .banners .swiper-container {
+    width: 500px;
+    height: 400px
+}
+
+[data-dpr="3"] #main .banners .swiper-container {
+    width: 750px;
+    height: 600px
+}
+
+#main .banners .swiper-container .swiper-wrapper img {
+    background-size: cover;
+    background-position: center
+}
+
+#main .banners .swiper-container .swiper-wrapper .img1 {
+    background-image: url(../img/intro/img1.jpg);
+    background-size: cover
+}
+
+#main .banners .swiper-container .swiper-wrapper .img2 {
+    background-image: url(../img/intro/img2.jpg);
+    background-size: cover
+}
+
+#main .banners .swiper-container .swiper-wrapper .img3 {
+    background-image: url(../img/intro/img3.jpg);
+    background-size: cover
+}
+
+#main .banners .swiper-container .swiper-wrapper .img4 {
+    background-image: url(../img/intro/img4.jpg);
+    background-size: cover
+}
+
+#main .banners .swiper-container .swiper-wrapper .img5 {
+    background-image: url(../img/intro/img5.jpg);
+    background-size: cover
+}
+
+#main .banners .swiper-container .swiper-wrapper .img6 {
+    background-image: url(../img/intro/img6_1.jpg);
+    background-size: cover
+}
+
+#main .banners .swiper-container .swiper-wrapper .img7 {
+    background-image: url(../img/intro/img7.jpg);
+    background-size: cover
+}
+
+#main .contact {
+    background-image: url(../img/intro/background.jpg)
+}
+
+[data-dpr="1"] #main .contact {
+    padding-top: 68.5px;
+    padding-bottom: 68.5px
+}
+
+[data-dpr="2"] #main .contact {
+    padding-top: 137px;
+    padding-bottom: 137px
+}
+
+[data-dpr="3"] #main .contact {
+    padding-top: 205.5px;
+    padding-bottom: 205.5px
+}
+
+#main .contact .textBox {
+    text-align: center;
+    color: #c1272d
+}
+
+[data-dpr="1"] #main .contact .textBox h1 {
+    font-size: 29px
+}
+
+[data-dpr="2"] #main .contact .textBox h1 {
+    font-size: 58px
+}
+
+[data-dpr="3"] #main .contact .textBox h1 {
+    font-size: 87px
+}
+
+[data-dpr="1"] #main .contact .textBox p {
+    margin-top: 5px;
+    font-size: 17.5px
+}
+
+[data-dpr="2"] #main .contact .textBox p {
+    margin-top: 10px;
+    font-size: 35px
+}
+
+[data-dpr="3"] #main .contact .textBox p {
+    margin-top: 15px;
+    font-size: 52.5px
+}
+
+#main .contact .icons {
+    text-align: center
+}
+
+[data-dpr="1"] #main .contact .icons img {
+    width: 50px;
+    height: 50px;
+    margin: 32.5px
+}
+
+[data-dpr="2"] #main .contact .icons img {
+    width: 100px;
+    height: 100px;
+    margin: 65px
+}
+
+[data-dpr="3"] #main .contact .icons img {
+    width: 150px;
+    height: 150px;
+    margin: 97.5px
+}
+
+/* img {
+    width: 150px;
+    height: 150px;
+    margin: 97.5px
+} */

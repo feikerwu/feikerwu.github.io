@@ -1,0 +1,39 @@
+@font-face {
+    font-family: NotoSansHans-Black;
+    src: url(../font/NotoSansHans-Black.ttf)
+}
+
+@font-face {
+    font-family: NotoSansHans-Medium;
+    src: url(../font/NotoSansHans-Medium.ttf)
+}
+
+@font-face {
+    font-family: NotoSansHans-Regular;
+    src: url(../font/NotoSansHans-Regular.ttf)
+}
+
+@font-face {
+    font-family: SourceHanSerif-Bold;
+    src: url(../font/SourceHanSerif-Bold.ttf)
+}
+
+@font-face {
+    font-family: SourceHanSerifTC-Bold;
+    src: url(../font/SourceHanSerifTC-Bold.ttf)
+}
+
+@font-face {
+    font-family: SourceHanSerifTC-Medium;
+    src: url(../font/SourceHanSerifTC-Medium.ttf)
+}
+
+@font-face {
+    font-family: SourceHanSerifTC-Regular;
+    src: url(../font/SourceHanSerifTC-Regular.ttf)
+}
+
+@font-face {
+    font-family: SourceHanSerifTC-SemiBold;
+    src: url(../font/SourceHanSerifTC-SemiBold.ttf)
+}

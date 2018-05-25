@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./js/jquery-3.3.1.min.js"></script>
+
+
+    <link type="text/css" rel="stylesheet" href="./css/index.css" />
+    <link type="text/css" rel="stylesheet" href="./css/loading.css" />
+    <link type="text/css" rel="stylesheet" href="./css/font.css" />
+    <link type="text/css" rel="stylesheet" href="./css/animate.css" />
+</head>
+<body>
+    <div id="Box">
+        <div id="main"> 
+            <div id="banner1">
+                <div class="bigBox">
+                    <img src="./img/common/logo.png" alt="logo" class="logo wow fadeInLeft" data-wow-duration="3s">
+                    <div class="text wow fadeInRight" data-wow-duration="3s">
+                        超静香以先进的科技为依托、以环保节能为己任，致力研发以及制造目前
+                        世界上最先进的隔音材料。
+                    </div>
+                    <div class="musicBox">
+                        <img src="./img/banner1/music.png" alt="music" class="musicBut">
+                        <audio controls='controls' class="music" hidden='true' id="music">
+                            <source src='./img/banner1/05. 憧れカフェ.mp3' type="audio/mpeg" loop="false">
+                        </audio>
+                        <div class="musicText">開放音</div>
+                    </div>
+                    <div class="downBox wow fadeInUp"  data-wow-duration="3s">
+                        <div class="downText">向下滑动</div>
+                        <img src="./img/banner1/down.png" alt="down" class="downIcon">
+                    </div>
+                </div>
+            </div>
+            <div id="banner2">
+                <div class="bigBox">
+                    <img src="./img/banner2/forest1.png" alt="" id="forest1" class="lazy">
+                    <img src="./img/banner2/forest2.png" alt="" id="forest2" class="lazy">
+                    <img src="./img/banner2/forest3.png" alt="" id="forest3" class="lazy">
+                    <img src="./img/banner2/forest4.png" alt="" id="forest4" class="lazy">
+                    <img src="./img/banner2/forest5.png" alt="" id="forest5" class="lazy">
+                    <img src="./img/banner2/forest6.png" alt="" id="forest6" class="lazy">
+                    <img src="./img/banner2/forest7.png" alt="" id="forest7" class="lazy">
+                    <img src="./img/banner2/forest8.png" alt="" id="forest8" class="lazy">
+                    <img src="./img/banner2/bird.png" alt="" id="bird" class="lazy">
+                    <img src="./img/banner2/birds.png" alt="" id="birds" class="lazy wow fadeIn">
+                </div>
+                <h1 class="wow fadeIn" id='method'>最優質安全的隔音解决方案</h1>
+            </div>
+            <img src="./img/banner2/forest0.png" alt="" id="forest0" class="lazy">
+            <div id="banner3">
+                <div class="bigBox">
+                    <div class="text wow fadeInUp">烟毒测试达</div><span wow fadeInRight>T0</span><div class="text wow fadeInUp">级别</div>
+                </div>
+            </div>
+
+            <div id="banner4">
+                <div class="bigBox">
+                    <img src="./img/banner4/coil.png" alt="coil" class="coil4 lazy">
+                    <div class="Box">
+                        <img src="./img/common/logo.png" alt="logo" class="logo lazy">
+                        <div class="textBox">
+                            <div class="text1">
+                                    由日本石井商株式会社制造，“超静香”隔音材料以高纯度精细铁粉为原料，
+                                    应用最新的减震隔音技术，开发研制出针对地板、墙壁、管道的隔音材料。
+                                    并在日本有着<span>二十年</span>的应用经验。能够有效地隔绝外界的噪
+                                    音，营造一个安全、安静、舒适的环境。
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="banner5">
+                <img src="./img/banner5/board.png" alt="board" class="board5 lazy">
+                <div class="bigBox">
+                    <div class="leftImg">
+                        <img src="./img/banner5/plate1.png" alt="" class="plate1 lazy">
+                        <img src="./img/banner5/plate2.png" alt="" class="plate2 lazy">
+                        <img src="./img/banner5/plate3.png" alt="" class="plate3 lazy">
+                        <img src="./img/banner5/plate4.png" alt="" class="plate4 lazy">
+                    </div>
+                    <img src="./img/common/logo.png" alt="logo" class="logo lazy">
+                </div>
+            </div>
+
+            <div id="banner6">
+                <div class="bigBox">
+                    <div class="box">
+                        <div class="leftBox">
+                            <img src="./img/banner6/flame.png" alt="flame" class="flame wow fadeIn lazy" data-wow-duration="2s">
+                            <img src="./img/banner6/bat.png" alt="" class="bat lazy">
+                        </div>
+                        <div class="rightBox">
+                            <div class="zh wow fadeInRight">阻燃</div>
+                            <div class="ja wow fadeInLeft">燃えていない</div>
+                        </div>
+                    </div>
+                    <div class="textBox wow fadeInUp" data-wow-delay="1s">
+                        <p>超静香的燃烧性是除了不能燃烧的<span>石头</span>之外的<br>
+                            最高级别<span>B</span>级</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="banner7">
+                <div class="bigBox">
+                    <div class="box">
+                        <div class="leftBox">
+                            <div class="zh wow fadeInLeft">防潮</div>
+                            <div class="ja wow fadeInRight"  data-wow-delay="0.5s">防潮性</div>
+                        </div>
+                        <div class="rightBox">
+                            <img src="./img/banner7/proof.png" alt="" class="proof wow fadeInUp lazy" data-wow-duration="2s">
+                            <img src="./img/banner7/proofBat.png" alt="" class="proofBat lazy">
+                        </div>
+                    </div>
+                    <div class="textBox wow fadeInUp" data-wow-delay="1s">
+                        <p>历经了<span>72</span>小时水中的浸泡之后，超静香没有<br>
+                            任何的变形起泡等现象</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="banner8">
+                <div class="bigBox">
+                    <div class="img1Box">
+                        <img src="./img/banner8/hand.png" alt="" class="hand lazy">
+                    </div>
+                    <img src="./img/banner8/tunnel.png" alt="" class="tunnel lazy">
+                    <div class="otherBox"> 
+                        <div class="leftBox">
+                            <div class="one">
+                                原さ0.8mm
+                            </div>
+                            <div class="second">
+                                柔らかい
+                            </div>
+                        </div>
+                        <div class="rightBox">
+                            <p>最薄型号仅<span>0.8mm</span>约为3张名片的厚度
+                                <br><br><br><br><br>
+                                柔软的特质能让它很好的弯曲造型，紧贴包裹住管体，彻底解决来自排水管的烦恼。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="banner9">
+                <div class="bigBox" id="leftBox">
+                    <div class="leftBox" id="left">
+                        <div class="logo"></div>
+                    </div>
+                    <img src="./img/banner9/pop.png" alt="" class="pop lazy">
+                    <div class="rightBox">
+                        <div class="top">
+                            <p>面密度可高达<br><span>28.0kg/m²</span></p>
+                        </div>
+                        <div class="bottom">
+                            <p>隔音量最高达<br><span>34db</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="banner10">
+                <div class="bigBox">
+                    <div class="text">
+                        <a href='./intro.html'><h1 class="wow fadeInLeft">更多系列</h1><img src="./img/banner10/right.png" alt="" class="lazy"></a>
+                        <p class="wow fadeInRight">その他のシリーズ</p>
+                    </div>
+                    <div class="text">
+                        <h1 class="wow fadeInLeft">联系我们</h1>
+                        <p class="wow fadeInRight">お問い合わせ</p>
+                    </div>
+                    <div class="icons">
+                        <a href="tel:15555500">
+                            <img src="./img/banner10/phone.png" alt="" class="phone lazy  wow fadeIn"data-wow-delay="1s">
+                        </a>
+                        <a href="sms:155555">
+                            <img src="./img/banner10/message.png" alt="" class="massage lazy  wow fadeIn" data-wow-delay="1s">
+                        </a>
+                        <img src="./img/banner10/map.png" alt="" class="map lazy  wow fadeIn"data-wow-delay="1s">
+                    </div>
+                </div>
+            </div>
+
+            <div id="banner11">
+            </div>
+
+            <div id="banner12">
+            </div>
+
+        </div>
+    </div>
+    <script src="./js/wow.min.js"></script>
+        <!-- 动画库 -->
+
+
+    <!-- 移动端适应库 -->
+    <script src="./js/flexible.debug.js"></script>
+    <script src="./js/flexible_css.debug.js"></script>
+
+    <!-- <script src="./js/j2ckf.js"></script> -->
+
+    <!-- 地图插件 -->
+    <!-- <script src="http://api.map.baidu.com/api?v=2.0&ak=A1LU7iHS0avqQwPLAxbhKn0UYSQCuRVH"></script> -->
+    <!-- <script src="./js/jquery.baiduMap.min.js"></script> -->
+
+    <!-- lazyload库 -->
+    <!-- <script src="./js/jquery.lazyload.min.js"></script> -->
+
+    <script src="./js/index.js"></script>
+    <script src="./js/loading.js"></script>
+    <script>
+        new WOW().init();
+        // $("img.lazy").lazyload({
+        //     // placeholder : "img/grey.gif", //用图片提前占位
+        //         // placeholder,值为某一图片路径.此图片用来占据将要加载的图片的位置,待图片加载时,占位图则会隐藏
+        //     effect: "show", // 载入使用何种效果
+        //         // effect(特效),值有show(直接显示),fadeIn(淡入),slideDown(下拉)等,常用fadeIn
+        //     threshold: 200, // 提前开始加载
+        //         // threshold,值为数字,代表页面高度.如设置为200,表示滚动条在离目标位置还有200的高度时就开始加载图片,可以做到不让用户察觉
+        //     // event: 'click',  // 事件触发时才加载
+        //         // event,值有click(点击),mouseover(鼠标划过),sporty(运动的),foobar(…).可以实现鼠标莫过或点击图片才开始加载,后两个值未测试…
+        //     // container: $("#container"),  // 对某容器中的图片实现效果
+        //         // container,值为某容器.lazyload默认在拉动浏览器滚动条时生效,这个参数可以让你在拉动某DIV的滚动条时依次加载其中的图片
+        //     failurelimit : 10 // 图片排序混乱时
+        //         // failurelimit,值为数字.lazyload默认在找到第一张不在可见区域里的图片时则不再继续加载,但当HTML容器混乱的时候可能出现可见区域内图片并没加载出来的情况,failurelimit意在加载N张可见区域外的图片,以避免出现这个问题.
+        //     });
+    </script>
+</body>
+</html>

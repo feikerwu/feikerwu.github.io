@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./js/jquery-3.1.0.min.js"></script>
+    <script src="./js/flexible.debug.js"></script>
+    <script src="./js/flexible_css.debug.js"></script>
+    <script src="./js/swiper-4.2.6.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="./css/intro.css" />
+    <link type="text/css" rel="stylesheet" href="./css/swiper-4.2.6.min.css" />
+    <link type="text/css" rel="stylesheet" href="./css/font.css" />
+</head>
+<body>
+    <div id="main">
+        <div class="bgmBox"></div>
+        <div class="introBox">
+            <img src="./img/intro/juan2.png" alt="" class="juanleft">
+            <img src="./img/intro/juan1.png" alt="" class="juanright">
+            <img src="./img/intro/bancai2.png" alt="" class="bancaileft">
+            <img src="./img/intro/bancai1.png" alt="" class="bancairight">
+            <div class="textBox">
+                <h1 class="mainTitle">すーば一静香・かべ</h1>
+                <div class="titleBox">
+                    <h1><span>K</span>系列卷材</h1>
+                    <p>Nイ(地化ビ==ル基村</p>
+                </div>
+                <div class="otherBox">
+                    <h1>K-80</h1>
+                    <p>
+                        规格0.8×940×10000mm<br>
+                        密度:3.0g/立方cm<br>
+                        面密度:2.4kg/平方m<br>
+                        重量:22.6kg/卷<br>
+                    </p>
+                </div>
+                <div class="otherBox">
+                    <h1>K-140</h1>
+                    <p>
+                        规格:1.4×940×5000mm<br>
+                        密度:3.0g/立方cm<br>
+                        面密度:4.1kg/平方m<br>
+                        重量:19.3kg/卷<br>
+                    </p>
+                </div>
+                <div class="titleBox second">
+                    <h1><span>F</span>系列卷材</h1>
+                    <p>Fタイプ(アスフアルト基材)</p>
+                </div>
+                <div class="otherBox">
+                    <h1>F-400</h1>
+                    <p>
+                        规格4X455X910mm<br>
+                        密度:2.8g/立方cm<br>
+                        密度:11.2kg/平方m<br>
+                        重量:4.6kg/卷<br>
+                    </p>
+                </div>
+                <div class="otherBox">
+                    <h1>F-600</h1>
+                    <p>
+                        规格:6X455×910mm<br>
+                        密度:2.8g/立方cm<br>
+                        面密度:16.8kg/平方m<br>
+                        重量:6.9kg/卷<br>
+                    </p>
+                </div>
+                <div class="otherBox">
+                    <h1>F-400</h1>
+                    <p>
+                        规格:8X455X910mm<br>
+                        密度:2.8g/立方cm<br>
+                        面密度:22.4kg/平方m<br>
+                        重量:9,3kg/卷<br>
+                    </p>
+                </div>
+                <div class="otherBox">
+                    <h1>F-400</h1>
+                    <p>
+                        规格:10×455×910mm<br>
+                        密度:2.8g/立方cm<br>
+                        面密度:28.0kg/平方m<br>
+                        重量:11.6kg/卷<br>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="banners">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide img1"></div>
+                    <div class="swiper-slide img2"></div>
+                    <div class="swiper-slide img3"></div>
+                    <div class="swiper-slide img4"></div>
+                    <div class="swiper-slide img5"></div>
+                    <div class="swiper-slide img6"></div>
+                    <div class="swiper-slide img7"></div>
+                </div>
+            </div>
+        </div>
+        <div class="contact">
+            <div class="textBox">
+                <h1>联系我们</h1>
+                <p>お問い合わせ</p>
+            </div>
+            <div class="icons">
+                <a href="tel:15555500">
+                    <img src="./img/intro/phone.png" alt="" class="phone">
+                </a>
+                <a href="sms:155555">
+                    <img src="./img/intro/message.png" alt="" class="massage">
+                </a>
+                <img src="./img/intro/map.png" alt="" class="map">
+            </div>
+        </div>
+    </div>
+    <script>        
+        var mySwiper = new Swiper ('.swiper-container', {
+            spaceBetween: 0,
+            centeredSlides: true,
+            loop:true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            }
+        })        
+    </script>
+</body>
+</html>

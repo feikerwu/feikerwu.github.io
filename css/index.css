@@ -1,0 +1,1596 @@
+#Box #main #banner1 {
+  height: 14.4rem ;
+  background-image: url("../img/common/background.jpg");
+  position: absolute;
+  z-index: 100;
+  box-shadow: 0 0.133333rem 0.133333rem #888;
+}
+
+[data-dpr="1"] #Box #main #banner1 {
+  padding: 70px 40px 0 40px;
+}
+
+[data-dpr="2"] #Box #main #banner1 {
+  padding: 140px 80px 0 80px;
+}
+
+[data-dpr="3"] #Box #main #banner1 {
+  padding: 210px 120px 0 120px;
+}
+
+#Box #main #banner1 .bigBox {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+[data-dpr="1"] #Box #main #banner1 .bigBox .logo {
+  width: 135px;
+  height: 107.5px;
+}
+
+[data-dpr="2"] #Box #main #banner1 .bigBox .logo {
+  width: 270px;
+  height: 215px;
+}
+
+[data-dpr="3"] #Box #main #banner1 .bigBox .logo {
+  width: 405px;
+  height: 322.5px;
+}
+
+#Box #main #banner1 .bigBox .text {
+  font-family: NotoSansHans-Medium;
+}
+
+[data-dpr="1"] #Box #main #banner1 .bigBox .text {
+  font-size: 11px;
+  margin-top: 27.5px;
+  line-height: 20px;
+}
+
+[data-dpr="2"] #Box #main #banner1 .bigBox .text {
+  font-size: 22px;
+  margin-top: 55px;
+  line-height: 40px;
+}
+
+[data-dpr="3"] #Box #main #banner1 .bigBox .text {
+  font-size: 33px;
+  margin-top: 82.5px;
+  line-height: 60px;
+}
+
+#Box #main #banner1 .bigBox .musicBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+[data-dpr="1"] #Box #main #banner1 .bigBox .musicBox {
+  margin-top: 80px;
+}
+
+[data-dpr="2"] #Box #main #banner1 .bigBox .musicBox {
+  margin-top: 160px;
+}
+
+[data-dpr="3"] #Box #main #banner1 .bigBox .musicBox {
+  margin-top: 240px;
+}
+
+[data-dpr="1"] #Box #main #banner1 .bigBox .musicBox .musicBut {
+  width: 37.5px;
+  height: 37.5px;
+}
+
+[data-dpr="2"] #Box #main #banner1 .bigBox .musicBox .musicBut {
+  width: 75px;
+  height: 75px;
+}
+
+[data-dpr="3"] #Box #main #banner1 .bigBox .musicBox .musicBut {
+  width: 112.5px;
+  height: 112.5px;
+}
+
+#Box #main #banner1 .bigBox .musicBox .musicText {
+  font-family: SourceHanSerifTC-Medium;
+}
+
+[data-dpr="1"] #Box #main #banner1 .bigBox .musicBox .musicText {
+  font-size: 19px;
+  margin-top: 10px;
+}
+
+[data-dpr="2"] #Box #main #banner1 .bigBox .musicBox .musicText {
+  font-size: 38px;
+  margin-top: 20px;
+}
+
+[data-dpr="3"] #Box #main #banner1 .bigBox .musicBox .musicText {
+  font-size: 57px;
+  margin-top: 30px;
+}
+
+#Box #main #banner1 .bigBox .downBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+[data-dpr="1"] #Box #main #banner1 .bigBox .downBox {
+  margin-top: 55px;
+}
+
+[data-dpr="2"] #Box #main #banner1 .bigBox .downBox {
+  margin-top: 110px;
+}
+
+[data-dpr="3"] #Box #main #banner1 .bigBox .downBox {
+  margin-top: 165px;
+}
+
+#Box #main #banner1 .bigBox .downBox .downText {
+  font-family: SourceHanSerifTC-Medium;
+}
+
+[data-dpr="1"] #Box #main #banner1 .bigBox .downBox .downText {
+  font-size: 24px;
+}
+
+[data-dpr="2"] #Box #main #banner1 .bigBox .downBox .downText {
+  font-size: 48px;
+}
+
+[data-dpr="3"] #Box #main #banner1 .bigBox .downBox .downText {
+  font-size: 72px;
+}
+
+[data-dpr="1"] #Box #main #banner1 .bigBox .downBox .downIcon {
+  width: 22.5px;
+  height: 25px;
+}
+
+[data-dpr="2"] #Box #main #banner1 .bigBox .downBox .downIcon {
+  width: 45px;
+  height: 50px;
+}
+
+[data-dpr="3"] #Box #main #banner1 .bigBox .downBox .downIcon {
+  width: 67.5px;
+  height: 75px;
+}
+
+#Box #main #banner2 {
+  background-image: url("../img/banner2/forest10.jpg");
+  z-index: -1;
+  overflow: hidden;
+  position: relative;
+}
+
+[data-dpr="1"] #Box #main #banner2 {
+  height: 960px;
+}
+
+[data-dpr="2"] #Box #main #banner2 {
+  height: 1920px;
+}
+
+[data-dpr="3"] #Box #main #banner2 {
+  height: 2880px;
+}
+
+#Box #main #banner2 .bigBox img {
+  width: 100%;
+  position: absolute;
+}
+
+#Box #main #banner2 .bigBox #forest1 {
+  z-index: 8;
+}
+
+[data-dpr="1"] #Box #main #banner2 .bigBox #forest1 {
+  transform: translate3d(0, 300px, 0);
+}
+
+[data-dpr="2"] #Box #main #banner2 .bigBox #forest1 {
+  transform: translate3d(0, 600px, 0);
+}
+
+[data-dpr="3"] #Box #main #banner2 .bigBox #forest1 {
+  transform: translate3d(0, 900px, 0);
+}
+
+#Box #main #banner2 .bigBox #forest2 {
+  z-index: 7;
+}
+
+[data-dpr="1"] #Box #main #banner2 .bigBox #forest2 {
+  transform: translate3d(0, 90px, 0);
+}
+
+[data-dpr="2"] #Box #main #banner2 .bigBox #forest2 {
+  transform: translate3d(0, 180px, 0);
+}
+
+[data-dpr="3"] #Box #main #banner2 .bigBox #forest2 {
+  transform: translate3d(0, 270px, 0);
+}
+
+#Box #main #banner2 .bigBox #forest3 {
+  z-index: 6;
+}
+
+[data-dpr="1"] #Box #main #banner2 .bigBox #forest3 {
+  transform: translate3d(0, 77.5px, 0);
+}
+
+[data-dpr="2"] #Box #main #banner2 .bigBox #forest3 {
+  transform: translate3d(0, 155px, 0);
+}
+
+[data-dpr="3"] #Box #main #banner2 .bigBox #forest3 {
+  transform: translate3d(0, 232.5px, 0);
+}
+
+#Box #main #banner2 .bigBox #forest4 {
+  z-index: 5;
+}
+
+[data-dpr="1"] #Box #main #banner2 .bigBox #forest4 {
+  transform: translate3d(0, 80px, 0);
+}
+
+[data-dpr="2"] #Box #main #banner2 .bigBox #forest4 {
+  transform: translate3d(0, 160px, 0);
+}
+
+[data-dpr="3"] #Box #main #banner2 .bigBox #forest4 {
+  transform: translate3d(0, 240px, 0);
+}
+
+#Box #main #banner2 .bigBox #forest5 {
+  z-index: 4;
+}
+
+[data-dpr="1"] #Box #main #banner2 .bigBox #forest5 {
+  transform: translate3d(0, 75px, 0);
+}
+
+[data-dpr="2"] #Box #main #banner2 .bigBox #forest5 {
+  transform: translate3d(0, 150px, 0);
+}
+
+[data-dpr="3"] #Box #main #banner2 .bigBox #forest5 {
+  transform: translate3d(0, 225px, 0);
+}
+
+#Box #main #banner2 .bigBox #forest6 {
+  z-index: 3;
+}
+
+[data-dpr="1"] #Box #main #banner2 .bigBox #forest6 {
+  transform: translate3d(0, 50px, 0);
+}
+
+[data-dpr="2"] #Box #main #banner2 .bigBox #forest6 {
+  transform: translate3d(0, 100px, 0);
+}
+
+[data-dpr="3"] #Box #main #banner2 .bigBox #forest6 {
+  transform: translate3d(0, 150px, 0);
+}
+
+#Box #main #banner2 .bigBox #forest7 {
+  z-index: 2;
+}
+
+[data-dpr="1"] #Box #main #banner2 .bigBox #forest7 {
+  transform: translate3d(0, 85px, 0);
+}
+
+[data-dpr="2"] #Box #main #banner2 .bigBox #forest7 {
+  transform: translate3d(0, 170px, 0);
+}
+
+[data-dpr="3"] #Box #main #banner2 .bigBox #forest7 {
+  transform: translate3d(0, 255px, 0);
+}
+
+#Box #main #banner2 .bigBox #forest8 {
+  z-index: 1;
+}
+
+[data-dpr="1"] #Box #main #banner2 .bigBox #forest8 {
+  transform: translate3d(0, 59px, 0);
+}
+
+[data-dpr="2"] #Box #main #banner2 .bigBox #forest8 {
+  transform: translate3d(0, 118px, 0);
+}
+
+[data-dpr="3"] #Box #main #banner2 .bigBox #forest8 {
+  transform: translate3d(0, 177px, 0);
+}
+
+#Box #main #banner2 .bigBox #bird {
+  z-index: 12;
+  width: 26%;
+}
+
+[data-dpr="1"] #Box #main #banner2 .bigBox #bird {
+  transform: translate3d(250px, 700px, 0);
+}
+
+[data-dpr="2"] #Box #main #banner2 .bigBox #bird {
+  transform: translate3d(500px, 1400px, 0);
+}
+
+[data-dpr="3"] #Box #main #banner2 .bigBox #bird {
+  transform: translate3d(750px, 2100px, 0);
+}
+
+#Box #main #banner2 .bigBox #birds {
+  z-index: 12;
+  width: 80%;
+}
+
+[data-dpr="1"] #Box #main #banner2 .bigBox #birds {
+  transform: translate3d(-45px, 420px, 0);
+}
+
+[data-dpr="2"] #Box #main #banner2 .bigBox #birds {
+  transform: translate3d(-90px, 840px, 0);
+}
+
+[data-dpr="3"] #Box #main #banner2 .bigBox #birds {
+  transform: translate3d(-135px, 1260px, 0);
+}
+
+#Box #main #banner2 h1 {
+  margin: 0 auto;
+  font-family: SourceHanSerifTC-Medium;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  margin-left: -0.28rem;
+  z-index: 11;
+}
+
+[data-dpr="1"] #Box #main #banner2 h1 {
+  width: 21px;
+  line-height: 22.5px;
+  font-size: 21px;
+  transform: translate3d(0, 200px, 0);
+}
+
+[data-dpr="2"] #Box #main #banner2 h1 {
+  width: 42px;
+  line-height: 45px;
+  font-size: 42px;
+  transform: translate3d(0, 400px, 0);
+}
+
+[data-dpr="3"] #Box #main #banner2 h1 {
+  width: 63px;
+  line-height: 67.5px;
+  font-size: 63px;
+  transform: translate3d(0, 600px, 0);
+}
+
+#Box #main #forest0 {
+  position: absolute;
+  z-index: 9;
+  width: 100%;
+}
+
+[data-dpr="1"] #Box #main #forest0 {
+  transform: translate3d(0, -335px, 0);
+}
+
+[data-dpr="2"] #Box #main #forest0 {
+  transform: translate3d(0, -670px, 0);
+}
+
+[data-dpr="3"] #Box #main #forest0 {
+  transform: translate3d(0, -1005px, 0);
+}
+
+#Box #main #banner3 {
+  background-image: url("../img/common/background.jpg");
+  display: flex;
+  justify-content: center;
+}
+
+[data-dpr="1"] #Box #main #banner3 {
+  height: 604px;
+  margin-top: 120px;
+}
+
+[data-dpr="2"] #Box #main #banner3 {
+  height: 1208px;
+  margin-top: 240px;
+}
+
+[data-dpr="3"] #Box #main #banner3 {
+  height: 1812px;
+  margin-top: 360px;
+}
+
+#Box #main #banner3 .bigBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#Box #main #banner3 .bigBox .text {
+  margin: 0 auto;
+  font-family: SourceHanSerifTC-Medium;
+}
+
+[data-dpr="1"] #Box #main #banner3 .bigBox .text {
+  width: 21px;
+  line-height: 22.5px;
+  font-size: 21px;
+}
+
+[data-dpr="2"] #Box #main #banner3 .bigBox .text {
+  width: 42px;
+  line-height: 45px;
+  font-size: 42px;
+}
+
+[data-dpr="3"] #Box #main #banner3 .bigBox .text {
+  width: 63px;
+  line-height: 67.5px;
+  font-size: 63px;
+}
+
+#Box #main #banner3 .bigBox span {
+  color: #c1272d;
+}
+
+[data-dpr="1"] #Box #main #banner3 .bigBox span {
+  font-size: 50px;
+  border-bottom: 2.5px solid #c1272d;
+  line-height: 50px;
+  margin: 15px;
+}
+
+[data-dpr="2"] #Box #main #banner3 .bigBox span {
+  font-size: 100px;
+  border-bottom: 5px solid #c1272d;
+  line-height: 100px;
+  margin: 30px;
+}
+
+[data-dpr="3"] #Box #main #banner3 .bigBox span {
+  font-size: 150px;
+  border-bottom: 7.5px solid #c1272d;
+  line-height: 150px;
+  margin: 45px;
+}
+
+#Box #main #banner4 {
+  /* border: 0.013333rem solid #000; */
+  background-image: url("../img/common/background.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+[data-dpr="1"] #Box #main #banner4 {
+  height: 604px;
+}
+
+[data-dpr="2"] #Box #main #banner4 {
+  height: 1208px;
+}
+
+[data-dpr="3"] #Box #main #banner4 {
+  height: 1812px;
+}
+
+#Box #main #banner4 .bigBox .coil4 {
+  position: absolute;
+  left: 0;
+  width: 42%;
+}
+
+[data-dpr="1"] #Box #main #banner4 .bigBox .coil4 {
+  transform: translate3d(0, 50px, 0);
+}
+
+[data-dpr="2"] #Box #main #banner4 .bigBox .coil4 {
+  transform: translate3d(0, 100px, 0);
+}
+
+[data-dpr="3"] #Box #main #banner4 .bigBox .coil4 {
+  transform: translate3d(0, 150px, 0);
+}
+
+#Box #main #banner4 .bigBox .Box {
+  display: flex;
+  justify-content: center;
+}
+
+#Box #main #banner4 .bigBox .Box .logo {
+  z-index: 1;
+}
+
+[data-dpr="1"] #Box #main #banner4 .bigBox .Box .logo {
+  width: 90px;
+  height: 70px;
+  margin-right: 135px;
+}
+
+[data-dpr="2"] #Box #main #banner4 .bigBox .Box .logo {
+  width: 180px;
+  height: 140px;
+  margin-right: 270px;
+}
+
+[data-dpr="3"] #Box #main #banner4 .bigBox .Box .logo {
+  width: 270px;
+  height: 210px;
+  margin-right: 405px;
+}
+
+#Box #main #banner4 .bigBox .Box .textBox {
+  z-index: 1;
+}
+
+#Box #main #banner4 .bigBox .Box .textBox .text1 {
+  margin: 0 auto;
+  font-family: SourceHanSerifTC-Medium;
+  writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+}
+
+[data-dpr="1"] #Box #main #banner4 .bigBox .Box .textBox .text1 {
+  width: 82.5px;
+  line-height: 20.5px;
+  font-size: 13px;
+  height: 315px;
+}
+
+[data-dpr="2"] #Box #main #banner4 .bigBox .Box .textBox .text1 {
+  width: 165px;
+  line-height: 41px;
+  font-size: 26px;
+  height: 630px;
+}
+
+[data-dpr="3"] #Box #main #banner4 .bigBox .Box .textBox .text1 {
+  width: 247.5px;
+  line-height: 61.5px;
+  font-size: 39px;
+  height: 945px;
+}
+
+#Box #main #banner4 .bigBox .Box .textBox span {
+  color: #c1272d;
+}
+
+[data-dpr="1"] #Box #main #banner4 .bigBox .Box .textBox span {
+  font-size: 20px;
+  border-left: 2.5px solid #c1272d;
+  line-height: 35px;
+  margin: 5px;
+}
+
+[data-dpr="2"] #Box #main #banner4 .bigBox .Box .textBox span {
+  font-size: 40px;
+  border-left: 5px solid #c1272d;
+  line-height: 70px;
+  margin: 10px;
+}
+
+[data-dpr="3"] #Box #main #banner4 .bigBox .Box .textBox span {
+  font-size: 60px;
+  border-left: 7.5px solid #c1272d;
+  line-height: 105px;
+  margin: 15px;
+}
+
+#Box #main #banner5 {
+  /* border: 0.013333rem solid #000; */
+  background-image: url("../img/common/background.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+[data-dpr="1"] #Box #main #banner5 {
+  height: 1340px;
+}
+
+[data-dpr="2"] #Box #main #banner5 {
+  height: 2680px;
+}
+
+[data-dpr="3"] #Box #main #banner5 {
+  height: 4020px;
+}
+
+#Box #main #banner5 .board5 {
+  position: absolute;
+  width: 60%;
+  right: 0;
+}
+
+[data-dpr="1"] #Box #main #banner5 .board5 {
+  transform: translate3d(0, -615px, 0);
+}
+
+[data-dpr="2"] #Box #main #banner5 .board5 {
+  transform: translate3d(0, -1230px, 0);
+}
+
+[data-dpr="3"] #Box #main #banner5 .board5 {
+  transform: translate3d(0, -1845px, 0);
+}
+
+#Box #main #banner5 .bigBox {
+  display: flex;
+  width: 100%;
+}
+
+[data-dpr="1"] #Box #main #banner5 .bigBox {
+  height: 900px;
+}
+
+[data-dpr="2"] #Box #main #banner5 .bigBox {
+  height: 1800px;
+}
+
+[data-dpr="3"] #Box #main #banner5 .bigBox {
+  height: 2700px;
+}
+
+#Box #main #banner5 .bigBox .leftImg {
+  display: flex;
+  flex-direction: column;
+}
+
+[data-dpr="1"] #Box #main #banner5 .bigBox .leftImg {
+  margin-right: 87.5px;
+}
+
+[data-dpr="2"] #Box #main #banner5 .bigBox .leftImg {
+  margin-right: 175px;
+}
+
+[data-dpr="3"] #Box #main #banner5 .bigBox .leftImg {
+  margin-right: 262.5px;
+}
+
+#Box #main #banner5 .bigBox .leftImg .plate1 {
+  opacity: 0.3;
+}
+
+[data-dpr="1"] #Box #main #banner5 .bigBox .leftImg .plate1 {
+  width: 165px;
+  transform: translate3d(0, -59px, 0);
+}
+
+[data-dpr="2"] #Box #main #banner5 .bigBox .leftImg .plate1 {
+  width: 330px;
+  transform: translate3d(0, -118px, 0);
+}
+
+[data-dpr="3"] #Box #main #banner5 .bigBox .leftImg .plate1 {
+  width: 495px;
+  transform: translate3d(0, -177px, 0);
+}
+
+#Box #main #banner5 .bigBox .leftImg .plate2,
+#Box #main #banner5 .bigBox .leftImg .plate3,
+#Box #main #banner5 .bigBox .leftImg .plate4 {
+  opacity: 0;
+  position: absolute;
+}
+
+[data-dpr="1"] #Box #main #banner5 .bigBox .leftImg .plate2,
+[data-dpr="1"] #Box #main #banner5 .bigBox .leftImg .plate3,
+[data-dpr="1"] #Box #main #banner5 .bigBox .leftImg .plate4 {
+  width: 165px;
+}
+
+[data-dpr="2"] #Box #main #banner5 .bigBox .leftImg .plate2,
+[data-dpr="2"] #Box #main #banner5 .bigBox .leftImg .plate3,
+[data-dpr="2"] #Box #main #banner5 .bigBox .leftImg .plate4 {
+  width: 330px;
+}
+
+[data-dpr="3"] #Box #main #banner5 .bigBox .leftImg .plate2,
+[data-dpr="3"] #Box #main #banner5 .bigBox .leftImg .plate3,
+[data-dpr="3"] #Box #main #banner5 .bigBox .leftImg .plate4 {
+  width: 495px;
+}
+
+#Box #main #banner5 .bigBox .logo {
+  width: 2.4rem;
+  height: 1.866667rem;
+}
+
+[data-dpr="1"] #Box #main #banner5 .bigBox .logo {
+  margin-top: -25px;
+}
+
+[data-dpr="2"] #Box #main #banner5 .bigBox .logo {
+  margin-top: -50px;
+}
+
+[data-dpr="3"] #Box #main #banner5 .bigBox .logo {
+  margin-top: -75px;
+}
+
+#Box #main #banner6 {
+  /* border: 0.013333rem solid #000; */
+  background-image: url("../img/common/background.jpg");
+}
+
+[data-dpr="1"] #Box #main #banner6 {
+  height: 666.5px;
+}
+
+[data-dpr="2"] #Box #main #banner6 {
+  height: 1333px;
+}
+
+[data-dpr="3"] #Box #main #banner6 {
+  height: 1999.5px;
+}
+
+#Box #main #banner6 .bigBox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+[data-dpr="1"] #Box #main #banner6 .bigBox {
+  height: 666.5px;
+}
+
+[data-dpr="2"] #Box #main #banner6 .bigBox {
+  height: 1333px;
+}
+
+[data-dpr="3"] #Box #main #banner6 .bigBox {
+  height: 1999.5px;
+}
+
+#Box #main #banner6 .bigBox .box {
+  display: flex;
+  width: 100%;
+}
+
+[data-dpr="1"] #Box #main #banner6 .bigBox .box {
+  margin-bottom: 80px;
+}
+
+[data-dpr="2"] #Box #main #banner6 .bigBox .box {
+  margin-bottom: 160px;
+}
+
+[data-dpr="3"] #Box #main #banner6 .bigBox .box {
+  margin-bottom: 240px;
+}
+
+#Box #main #banner6 .bigBox .box .leftBox {
+  position: relative;
+}
+
+#Box #main #banner6 .bigBox .box .leftBox .flame {
+  position: absolute;
+}
+
+[data-dpr="1"] #Box #main #banner6 .bigBox .box .leftBox .flame {
+  width: 175px;
+  left: 4.5px;
+  top: 89.5px;
+}
+
+[data-dpr="2"] #Box #main #banner6 .bigBox .box .leftBox .flame {
+  width: 350px;
+  left: 9px;
+  top: 179px;
+}
+
+[data-dpr="3"] #Box #main #banner6 .bigBox .box .leftBox .flame {
+  width: 525px;
+  left: 13.5px;
+  top: 268.5px;
+}
+
+[data-dpr="1"] #Box #main #banner6 .bigBox .box .leftBox .bat {
+  width: 233.1px;
+  height: 374.15px;
+}
+
+[data-dpr="2"] #Box #main #banner6 .bigBox .box .leftBox .bat {
+  width: 466.2px;
+  height: 748.3px;
+}
+
+[data-dpr="3"] #Box #main #banner6 .bigBox .box .leftBox .bat {
+  width: 699.3px;
+  height: 1122.45px;
+}
+
+#Box #main #banner6 .bigBox .box .rightBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#Box #main #banner6 .bigBox .box .rightBox .zh,
+#Box #main #banner6 .bigBox .box .rightBox .ja {
+  color: #c1272d;
+  font-family: NotoSansHans-Medium;
+}
+
+[data-dpr="1"] #Box #main #banner6 .bigBox .box .rightBox .zh {
+  font-size: 50px;
+}
+
+[data-dpr="2"] #Box #main #banner6 .bigBox .box .rightBox .zh {
+  font-size: 100px;
+}
+
+[data-dpr="3"] #Box #main #banner6 .bigBox .box .rightBox .zh {
+  font-size: 150px;
+}
+
+[data-dpr="1"] #Box #main #banner6 .bigBox .box .rightBox .ja {
+  font-size: 18px;
+}
+
+[data-dpr="2"] #Box #main #banner6 .bigBox .box .rightBox .ja {
+  font-size: 36px;
+}
+
+[data-dpr="3"] #Box #main #banner6 .bigBox .box .rightBox .ja {
+  font-size: 54px;
+}
+
+#Box #main #banner6 .bigBox .textBox {
+  text-align: center;
+}
+
+#Box #main #banner6 .bigBox .textBox p {
+  font-family: NotoSansHans-Regular;
+}
+
+[data-dpr="1"] #Box #main #banner6 .bigBox .textBox p {
+  font-size: 13px;
+}
+
+[data-dpr="2"] #Box #main #banner6 .bigBox .textBox p {
+  font-size: 26px;
+}
+
+[data-dpr="3"] #Box #main #banner6 .bigBox .textBox p {
+  font-size: 39px;
+}
+
+#Box #main #banner6 .bigBox .textBox span {
+  color: #c1272d;
+  font-family: NotoSansHans-Black;
+}
+
+[data-dpr="1"] #Box #main #banner6 .bigBox .textBox span {
+  font-size: 20px;
+}
+
+[data-dpr="2"] #Box #main #banner6 .bigBox .textBox span {
+  font-size: 40px;
+}
+
+[data-dpr="3"] #Box #main #banner6 .bigBox .textBox span {
+  font-size: 60px;
+}
+
+#Box #main #banner7 {
+  background-image: url("../img/common/background.jpg");
+  overflow: hidden;
+}
+
+[data-dpr="1"] #Box #main #banner7 {
+  height: 666.5px;
+}
+
+[data-dpr="2"] #Box #main #banner7 {
+  height: 1333px;
+}
+
+[data-dpr="3"] #Box #main #banner7 {
+  height: 1999.5px;
+}
+
+#Box #main #banner7 .bigBox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+[data-dpr="1"] #Box #main #banner7 .bigBox {
+  height: 666.5px;
+}
+
+[data-dpr="2"] #Box #main #banner7 .bigBox {
+  height: 1333px;
+}
+
+[data-dpr="3"] #Box #main #banner7 .bigBox {
+  height: 1999.5px;
+}
+
+#Box #main #banner7 .bigBox .box {
+  display: flex;
+  width: 100%;
+}
+
+[data-dpr="1"] #Box #main #banner7 .bigBox .box {
+  margin-bottom: 80px;
+}
+
+[data-dpr="2"] #Box #main #banner7 .bigBox .box {
+  margin-bottom: 160px;
+}
+
+[data-dpr="3"] #Box #main #banner7 .bigBox .box {
+  margin-bottom: 240px;
+}
+
+#Box #main #banner7 .bigBox .box .leftBox {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#Box #main #banner7 .bigBox .box .leftBox .zh,
+#Box #main #banner7 .bigBox .box .leftBox .ja {
+  color: #c1272d;
+  font-family: NotoSansHans-Medium;
+}
+
+[data-dpr="1"] #Box #main #banner7 .bigBox .box .leftBox .zh {
+  font-size: 50px;
+}
+
+[data-dpr="2"] #Box #main #banner7 .bigBox .box .leftBox .zh {
+  font-size: 100px;
+}
+
+[data-dpr="3"] #Box #main #banner7 .bigBox .box .leftBox .zh {
+  font-size: 150px;
+}
+
+[data-dpr="1"] #Box #main #banner7 .bigBox .box .leftBox .ja {
+  font-size: 18px;
+}
+
+[data-dpr="2"] #Box #main #banner7 .bigBox .box .leftBox .ja {
+  font-size: 36px;
+}
+
+[data-dpr="3"] #Box #main #banner7 .bigBox .box .leftBox .ja {
+  font-size: 54px;
+}
+
+#Box #main #banner7 .bigBox .box .rightBox {
+  flex: 1;
+  position: relative;
+}
+
+#Box #main #banner7 .bigBox .box .rightBox .proof {
+  width: 129%;
+  /*px*/
+  height: 166%;
+  position: absolute;
+}
+
+[data-dpr="1"] #Box #main #banner7 .bigBox .box .rightBox .proof {
+  right: -56.5px;
+  top: -95.5px;
+}
+
+[data-dpr="2"] #Box #main #banner7 .bigBox .box .rightBox .proof {
+  right: -113px;
+  top: -191px;
+}
+
+[data-dpr="3"] #Box #main #banner7 .bigBox .box .rightBox .proof {
+  right: -169.5px;
+  top: -286.5px;
+}
+
+#Box #main #banner7 .bigBox .box .rightBox .proofBat {
+  width: 80%;
+  /*px*/
+}
+
+[data-dpr="1"] #Box #main #banner7 .bigBox .box .rightBox .proofBat {
+  margin-left: 37px;
+}
+
+[data-dpr="2"] #Box #main #banner7 .bigBox .box .rightBox .proofBat {
+  margin-left: 74px;
+}
+
+[data-dpr="3"] #Box #main #banner7 .bigBox .box .rightBox .proofBat {
+  margin-left: 111px;
+}
+
+#Box #main #banner7 .bigBox .textBox {
+  text-align: center;
+}
+
+#Box #main #banner7 .bigBox .textBox p {
+  font-family: NotoSansHans-Regular;
+}
+
+[data-dpr="1"] #Box #main #banner7 .bigBox .textBox p {
+  font-size: 13px;
+}
+
+[data-dpr="2"] #Box #main #banner7 .bigBox .textBox p {
+  font-size: 26px;
+}
+
+[data-dpr="3"] #Box #main #banner7 .bigBox .textBox p {
+  font-size: 39px;
+}
+
+#Box #main #banner7 .bigBox .textBox span {
+  color: #c1272d;
+  font-family: NotoSansHans-Black;
+}
+
+[data-dpr="1"] #Box #main #banner7 .bigBox .textBox span {
+  font-size: 20px;
+}
+
+[data-dpr="2"] #Box #main #banner7 .bigBox .textBox span {
+  font-size: 40px;
+}
+
+[data-dpr="3"] #Box #main #banner7 .bigBox .textBox span {
+  font-size: 60px;
+}
+
+#Box #main #banner8 {
+  background-image: url("../img/common/background.jpg");
+}
+
+[data-dpr="1"] #Box #main #banner8 {
+  height: 513px;
+}
+
+[data-dpr="2"] #Box #main #banner8 {
+  height: 1026px;
+}
+
+[data-dpr="3"] #Box #main #banner8 {
+  height: 1539px;
+}
+
+#Box #main #banner8 .bigBox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+#Box #main #banner8 .bigBox .img1Box {
+  position: absolute;
+}
+
+[data-dpr="1"] #Box #main #banner8 .bigBox .img1Box {
+  top: -96.5px;
+  left: -36.5px;
+  width: 100%;
+}
+
+[data-dpr="2"] #Box #main #banner8 .bigBox .img1Box {
+  top: -193px;
+  left: -73px;
+  width: 100%;
+}
+
+[data-dpr="3"] #Box #main #banner8 .bigBox .img1Box {
+  top: -289.5px;
+  left: -109.5px;
+  width: 100%;
+}
+
+#Box #main #banner8 .bigBox .img1Box img {
+  width: 82%;
+}
+
+#Box #main #banner8 .bigBox .otherBox {
+  width: 100%;
+  display: flex;
+  height: 100%;
+  position: absolute;
+}
+
+#Box #main #banner8 .bigBox .otherBox .leftBox {
+  flex: 1;
+}
+
+#Box #main #banner8 .bigBox .otherBox .leftBox .one,
+#Box #main #banner8 .bigBox .otherBox .leftBox .second {
+  background-color: #f8ffe6;
+  border-radius: 50%;
+  text-align: center;
+  font-family: NotoSansHans-Regular;
+  position: absolute;
+  left: 15%;
+}
+
+[data-dpr="1"] #Box #main #banner8 .bigBox .otherBox .leftBox .one,
+[data-dpr="1"] #Box #main #banner8 .bigBox .otherBox .leftBox .second {
+  width: 65px;
+  height: 65px;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.38);
+  font-size: 10px;
+  line-height: 65px;
+}
+
+[data-dpr="2"] #Box #main #banner8 .bigBox .otherBox .leftBox .one,
+[data-dpr="2"] #Box #main #banner8 .bigBox .otherBox .leftBox .second {
+  width: 130px;
+  height: 130px;
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.38);
+  font-size: 20px;
+  line-height: 130px;
+}
+
+[data-dpr="3"] #Box #main #banner8 .bigBox .otherBox .leftBox .one,
+[data-dpr="3"] #Box #main #banner8 .bigBox .otherBox .leftBox .second {
+  width: 195px;
+  height: 195px;
+  box-shadow: 0 0 30px 0 rgba(0,0,0,0.38);
+  font-size: 30px;
+  line-height: 195px;
+}
+
+#Box #main #banner8 .bigBox .otherBox .leftBox .one {
+  top: 20%;
+}
+
+#Box #main #banner8 .bigBox .otherBox .leftBox .second {
+  top: 75%;
+}
+
+#Box #main #banner8 .bigBox .otherBox .rightBox {
+  flex: 1;
+  display: flex;
+}
+
+#Box #main #banner8 .bigBox .otherBox .rightBox p {
+  width: 60%;
+  margin-left: 20%;
+  font-family: NotoSansHans-Regular;
+}
+
+[data-dpr="1"] #Box #main #banner8 .bigBox .otherBox .rightBox p {
+  margin-top: 50px;
+  font-size: 11px;
+}
+
+[data-dpr="2"] #Box #main #banner8 .bigBox .otherBox .rightBox p {
+  margin-top: 100px;
+  font-size: 22px;
+}
+
+[data-dpr="3"] #Box #main #banner8 .bigBox .otherBox .rightBox p {
+  margin-top: 150px;
+  font-size: 33px;
+}
+
+#Box #main #banner8 .bigBox .otherBox .rightBox span {
+  color: #c1272d;
+  font-family: NotoSansHans-Regular;
+}
+
+[data-dpr="1"] #Box #main #banner8 .bigBox .otherBox .rightBox span {
+  font-size: 17px;
+  border-bottom: 1px solid #c1272d;
+}
+
+[data-dpr="2"] #Box #main #banner8 .bigBox .otherBox .rightBox span {
+  font-size: 34px;
+  border-bottom: 2px solid #c1272d;
+}
+
+[data-dpr="3"] #Box #main #banner8 .bigBox .otherBox .rightBox span {
+  font-size: 51px;
+  border-bottom: 3px solid #c1272d;
+}
+
+[data-dpr="1"] #Box #main #banner9 {
+  height: 628px;
+}
+
+[data-dpr="2"] #Box #main #banner9 {
+  height: 1256px;
+}
+
+[data-dpr="3"] #Box #main #banner9 {
+  height: 1884px;
+}
+
+#Box #main #banner9 .bigBox {
+  width: 100%;
+  position: relative;
+}
+
+#Box #main #banner9 .bigBox .leftBox {
+  z-index: 2;
+  overflow: hidden;
+  width: 50%;
+  position: relative;
+  background-image: url("../img/banner9/left.png");
+  background-size: cover;
+  background-position: center;
+  /* background-attachment: fixed; */
+}
+
+[data-dpr="1"] #Box #main #banner9 .bigBox .leftBox {
+  height: 628px;
+  border-right: 1.5px solid #fff;
+}
+
+[data-dpr="2"] #Box #main #banner9 .bigBox .leftBox {
+  height: 1256px;
+  border-right: 3px solid #fff;
+}
+
+[data-dpr="3"] #Box #main #banner9 .bigBox .leftBox {
+  height: 1884px;
+  border-right: 4.5px solid #fff;
+}
+
+#Box #main #banner9 .bigBox .leftBox .logo {
+  position: absolute;
+  background-image: url("../img/banner9/logo.png");
+  background-size: cover;
+  background-position: center;
+}
+
+[data-dpr="1"] #Box #main #banner9 .bigBox .leftBox .logo {
+  height: 71px;
+  width: 85px;
+  left: 25px;
+  top: 40px;
+}
+
+[data-dpr="2"] #Box #main #banner9 .bigBox .leftBox .logo {
+  height: 142px;
+  width: 170px;
+  left: 50px;
+  top: 80px;
+}
+
+[data-dpr="3"] #Box #main #banner9 .bigBox .leftBox .logo {
+  height: 213px;
+  width: 255px;
+  left: 75px;
+  top: 120px;
+}
+
+#Box #main #banner9 .bigBox .pop {
+  width: 0.666667rem;
+  position: absolute;
+  top: 50%;
+  z-index: 3;
+}
+
+[data-dpr="1"] #Box #main #banner9 .bigBox .pop {
+  transform: translate3d(175px, 0, 0);
+}
+
+[data-dpr="2"] #Box #main #banner9 .bigBox .pop {
+  transform: translate3d(350px, 0, 0);
+}
+
+[data-dpr="3"] #Box #main #banner9 .bigBox .pop {
+  transform: translate3d(525px, 0, 0);
+}
+
+#Box #main #banner9 .bigBox .rightBox {
+  position: relative;
+  z-index: 1;
+  background-image: url("../img/banner9/right.png");
+  background-size: cover;
+  background-position: center;
+  /* background-attachment: fixed; */
+}
+
+[data-dpr="1"] #Box #main #banner9 .bigBox .rightBox {
+  margin-top: -628px;
+  height: 628px;
+}
+
+[data-dpr="2"] #Box #main #banner9 .bigBox .rightBox {
+  margin-top: -1256px;
+  height: 1256px;
+}
+
+[data-dpr="3"] #Box #main #banner9 .bigBox .rightBox {
+  margin-top: -1884px;
+  height: 1884px;
+}
+
+#Box #main #banner9 .bigBox .rightBox .top,
+#Box #main #banner9 .bigBox .rightBox .bottom {
+  position: absolute;
+  background-color: #f8ffe6;
+  border-radius: 50%;
+  text-align: center;
+}
+
+[data-dpr="1"] #Box #main #banner9 .bigBox .rightBox .top,
+[data-dpr="1"] #Box #main #banner9 .bigBox .rightBox .bottom {
+  width: 125px;
+  height: 125px;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.38);
+}
+
+[data-dpr="2"] #Box #main #banner9 .bigBox .rightBox .top,
+[data-dpr="2"] #Box #main #banner9 .bigBox .rightBox .bottom {
+  width: 250px;
+  height: 250px;
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.38);
+}
+
+[data-dpr="3"] #Box #main #banner9 .bigBox .rightBox .top,
+[data-dpr="3"] #Box #main #banner9 .bigBox .rightBox .bottom {
+  width: 375px;
+  height: 375px;
+  box-shadow: 0 0 30px 0 rgba(0,0,0,0.38);
+}
+
+#Box #main #banner9 .bigBox .rightBox .top p,
+#Box #main #banner9 .bigBox .rightBox .bottom p {
+  font-family: NotoSansHans-Regular;
+}
+
+[data-dpr="1"] #Box #main #banner9 .bigBox .rightBox .top p,
+[data-dpr="1"] #Box #main #banner9 .bigBox .rightBox .bottom p {
+  font-size: 12.5px;
+  padding-top: 30px;
+}
+
+[data-dpr="2"] #Box #main #banner9 .bigBox .rightBox .top p,
+[data-dpr="2"] #Box #main #banner9 .bigBox .rightBox .bottom p {
+  font-size: 25px;
+  padding-top: 60px;
+}
+
+[data-dpr="3"] #Box #main #banner9 .bigBox .rightBox .top p,
+[data-dpr="3"] #Box #main #banner9 .bigBox .rightBox .bottom p {
+  font-size: 37.5px;
+  padding-top: 90px;
+}
+
+#Box #main #banner9 .bigBox .rightBox .top span,
+#Box #main #banner9 .bigBox .rightBox .bottom span {
+  font-family: NotoSansHans-Regular;
+  color: #c1272d;
+}
+
+[data-dpr="1"] #Box #main #banner9 .bigBox .rightBox .top span,
+[data-dpr="1"] #Box #main #banner9 .bigBox .rightBox .bottom span {
+  font-size: 20px;
+  line-height: 50px;
+}
+
+[data-dpr="2"] #Box #main #banner9 .bigBox .rightBox .top span,
+[data-dpr="2"] #Box #main #banner9 .bigBox .rightBox .bottom span {
+  font-size: 40px;
+  line-height: 100px;
+}
+
+[data-dpr="3"] #Box #main #banner9 .bigBox .rightBox .top span,
+[data-dpr="3"] #Box #main #banner9 .bigBox .rightBox .bottom span {
+  font-size: 60px;
+  line-height: 150px;
+}
+
+[data-dpr="1"] #Box #main #banner9 .bigBox .rightBox .top {
+  top: 50px;
+  left: 50px;
+}
+
+[data-dpr="2"] #Box #main #banner9 .bigBox .rightBox .top {
+  top: 100px;
+  left: 100px;
+}
+
+[data-dpr="3"] #Box #main #banner9 .bigBox .rightBox .top {
+  top: 150px;
+  left: 150px;
+}
+
+[data-dpr="1"] #Box #main #banner9 .bigBox .rightBox .bottom {
+  top: 330px;
+  left: 117px;
+}
+
+[data-dpr="2"] #Box #main #banner9 .bigBox .rightBox .bottom {
+  top: 660px;
+  left: 234px;
+}
+
+[data-dpr="3"] #Box #main #banner9 .bigBox .rightBox .bottom {
+  top: 990px;
+  left: 351px;
+}
+
+#Box #main #banner10 {
+  background-image: url("../img/common/background.jpg");
+}
+
+[data-dpr="1"] #Box #main #banner10 {
+  height: 465px;
+}
+
+[data-dpr="2"] #Box #main #banner10 {
+  height: 930px;
+}
+
+[data-dpr="3"] #Box #main #banner10 {
+  height: 1395px;
+}
+
+#Box #main #banner10 .bigBox {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+[data-dpr="1"] #Box #main #banner10 .bigBox {
+  padding-top: 65px;
+}
+
+[data-dpr="2"] #Box #main #banner10 .bigBox {
+  padding-top: 130px;
+}
+
+[data-dpr="3"] #Box #main #banner10 .bigBox {
+  padding-top: 195px;
+}
+
+#Box #main #banner10 .bigBox .text {
+  font-family: NotoSansHans-Medium;
+  color: #c1272d;
+}
+
+[data-dpr="1"] #Box #main #banner10 .bigBox .text {
+  margin-bottom: 35px;
+}
+
+[data-dpr="2"] #Box #main #banner10 .bigBox .text {
+  margin-bottom: 70px;
+}
+
+[data-dpr="3"] #Box #main #banner10 .bigBox .text {
+  margin-bottom: 105px;
+}
+
+[data-dpr="1"] #Box #main #banner10 .bigBox .text h1 {
+  font-size: 25px;
+  color: #c1272d;
+  text-decoration: none;
+}
+
+[data-dpr="2"] #Box #main #banner10 .bigBox .text h1 {
+  font-size: 50px;
+  color: #c1272d;
+  text-decoration: none;
+}
+
+[data-dpr="3"] #Box #main #banner10 .bigBox .text h1 {
+  font-size: 75px;
+  color: #c1272d;
+  text-decoration: none;
+}
+
+[data-dpr="1"] #Box #main #banner10 .bigBox .text p {
+  font-size: 18px;
+  line-height: 47.5px;
+}
+
+[data-dpr="2"] #Box #main #banner10 .bigBox .text p {
+  font-size: 36px;
+  line-height: 95px;
+}
+
+[data-dpr="3"] #Box #main #banner10 .bigBox .text p {
+  font-size: 54px;
+  line-height: 142.5px;
+}
+
+#Box #main #banner10 .bigBox .text img {
+  position: absolute;
+}
+
+[data-dpr="1"] #Box #main #banner10 .bigBox .text img {
+  top: 72.5px;
+  width: 25px;
+  right: 90px;
+}
+
+[data-dpr="2"] #Box #main #banner10 .bigBox .text img {
+  top: 145px;
+  width: 50px;
+  right: 180px;
+}
+
+[data-dpr="3"] #Box #main #banner10 .bigBox .text img {
+  top: 217.5px;
+  width: 75px;
+  right: 270px;
+}
+
+#Box #main #banner10 .bigBox .icons {
+  text-align: center;
+}
+
+[data-dpr="1"] #Box #main #banner10 .bigBox .icons img {
+  width: 50px;
+  height: 50px;
+  margin: 32.5px;
+}
+
+[data-dpr="2"] #Box #main #banner10 .bigBox .icons img {
+  width: 100px;
+  height: 100px;
+  margin: 65px;
+}
+
+[data-dpr="3"] #Box #main #banner10 .bigBox .icons img {
+  width: 150px;
+  height: 150px;
+  margin: 97.5px;
+}
+
+#Box #main #banner11 {
+  background-image: url("../img/banner11/banner11.jpg");
+  background-size: 145%;
+}
+
+[data-dpr="1"] #Box #main #banner11 {
+  height: 628px;
+  background-position: -108px 0;
+}
+
+[data-dpr="2"] #Box #main #banner11 {
+  height: 1256px;
+  background-position: -216px 0;
+}
+
+[data-dpr="3"] #Box #main #banner11 {
+  height: 1884px;
+  background-position: -324px 0;
+}
+
+/*# sourceMappingURL=index.css.map */
