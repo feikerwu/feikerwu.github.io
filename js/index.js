@@ -1,4 +1,9 @@
 $(document).ready(function () {
+    setTimeout(function() {
+        $('.my-loding').hide()
+        $('#Box').show()
+    }, 2000)
+
     function preloader() {
         if (document.images) {
             var img1 = new Image();
@@ -53,7 +58,7 @@ $(document).ready(function () {
 
     var loadImg = function (url) {
         var defer = $.Deferred();
-    
+
         var img = new Image();
         img.src = url;
         img.onload = function () {
@@ -62,32 +67,32 @@ $(document).ready(function () {
         img.onerror = function () {
             defer.reject()  ;
         };
-    
+
         return defer.promise();
     };
 
-    $.when(loadImg('../img/common/background.jpg')).then(function () {
-        // alert('all images are loaded!')
-        $('body').loading({
-			loadingWidth:240,
-			title:'请稍等!',
-			name:'test',
-			discription:'描述描述描述描述',
-			direction:'column',
-			type:'origin',
-			// originBg:'#71EA71',
-			originDivWidth:40,
-			originDivHeight:40,
-			originWidth:6,
-			originHeight:6,
-			smallLoading:false,
-			loadingMaskBg:'rgba(0,0,0,0.2)'
-		});
+    // $.when(loadImg('../img/common/background.jpg')).then(function () {
+    //     // alert('all images are loaded!')
+    //     $('body').loading({
+	// 		loadingWidth:240,
+	// 		title:'请稍等!',
+	// 		name:'test',
+	// 		discription:'描述描述描述描述',
+	// 		direction:'column',
+	// 		type:'origin',
+	// 		// originBg:'#71EA71',
+	// 		originDivWidth:40,
+	// 		originDivHeight:40,
+	// 		originWidth:6,
+	// 		originHeight:6,
+	// 		smallLoading:false,
+	// 		loadingMaskBg:'rgba(0,0,0,)'
+	// 	});
 
-		setTimeout(function(){
-			removeLoading('test');
-		},3000);
-    });
+	// 	setTimeout(function(){
+	// 		removeLoading('test');
+	// 	},3000);
+    // });
 
     /*-------------------点击播放音乐-------------------*/
     var isStart = false
@@ -166,9 +171,9 @@ $(document).ready(function () {
         var flg0 = Math.abs(parseInt(distant - (H / 10)))
         var banner2Height = H2 - Math.abs(parseInt(distant))
         // if(distant<(H/50)){
-        //     $('#forest0').css('transform','translate3d(0,'+Y0+'px,0)') 
+        //     $('#forest0').css('transform','translate3d(0,'+Y0+'px,0)')
         // }else{
-        //     $('#forest0').css('transform','translate3d(0,'+forest0Y+'px,0)') 
+        //     $('#forest0').css('transform','translate3d(0,'+forest0Y+'px,0)')
         // }
         if (distant > (H / 5) && (distant < (H))) {
             // console.log(banner2Height)
