@@ -1,7 +1,7 @@
 $(document).ready(function () {
     setTimeout(function() {
         $('.my-loding').hide()
-        $('#Box').show()
+        $('#Box').css('opacity', '1')
     }, 2000)
 
     function preloader() {
@@ -262,8 +262,6 @@ $(document).ready(function () {
         }
 
         // console.log(H5s)
-
-
 
 
     })

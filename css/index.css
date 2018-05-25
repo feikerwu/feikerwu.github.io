@@ -5,7 +5,7 @@ html, body{
 }
 
 #Box {
-  display: none;
+  /* display: none; */
 }
 
 #Box #main #banner1 {
