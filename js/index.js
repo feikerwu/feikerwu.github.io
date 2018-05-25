@@ -96,7 +96,7 @@ $(document).ready(function () {
 
     /*-------------------点击播放音乐-------------------*/
     var isStart = false
-    $('.musicBut').click(function () {
+    $('.musicBox').click(function () {
         if (!this.isStart) {
             document.getElementById('music').play()
             this.isStart = true
